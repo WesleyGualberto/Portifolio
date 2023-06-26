@@ -1,0 +1,167 @@
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+body {
+  margin: 0;
+  background-color: var(--body-bg-color);
+  display: grid;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.perfil {
+  background-color: var(--bg-cards);
+  width: 348px;
+  height: 292px;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.perfil img {
+  width: 128px;
+  height: 128px;
+  margin-top: 20px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #00ff00;
+}
+
+.perfil h3 {
+  margin-top: 26;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.perfil h5 {
+  font-weight: 400;
+  margin-top: 0;
+  color: var(--text-color);
+}
+
+.social {
+  background-color: var(--bg-cards);
+  width: 348px;
+  height: 292px;
+  margin: 20px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.social ul li {
+  list-style: none;
+  padding-top: 20px;
+  color: var(--text-color);
+
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+}
+
+.social ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.tecnologias {
+  background-color: var(--bg-cards);
+  width: 348px;
+  height: 208px;
+  margin: 20px;
+  border-radius: 20px;
+
+  color: var(--text-color);
+  text-align: left;
+}
+
+.tecnologias h3 {
+  margin: 30px 0px 20px 20px;
+}
+
+.tec-types {
+  display: grid;
+  grid-template-columns: 100px 100px 50px;
+  align-items: center;
+  text-align: center;
+  margin-left: 30px;
+  gap: 10px;
+  
+}
+
+.tec-types div {
+  width: 86px;
+  height: 24px;
+  font-size: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--bg-techs);
+  border: 1px solid var(--bg-techs);
+  border-radius: 30px;
+}
+
+.experiencias {
+  background-color: var(--bg-cards);
+  width: 348px;
+  height: 349px;
+  margin: 20px;
+  border-radius: 20px;
+
+  color: var(--text-color);
+  text-align: left;
+}
+
+.experiencias h3 {
+  margin: 30px 0px 20px 20px;
+}
+
+.experiencias li {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.experiencias li p {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.education {
+  background-color: var(--bg-cards);
+  width: 348px;
+  height: 349px;
+  margin: 20px;
+  border-radius: 20px;
+
+  color: var(--text-color);
+  text-align: left;
+}
+
+.education h3 {
+  margin: 30px 0px 20px 20px;
+}
+
+.education li {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.education li p {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
